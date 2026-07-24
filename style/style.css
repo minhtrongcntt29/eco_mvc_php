@@ -1,0 +1,57 @@
+.container {
+    width: 1200px;
+    border: 1px #ccc solid;
+    margin: auto;
+}
+
+.nav-img img {
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.nav-top {
+    background-color: #333;
+}
+
+.nav-top ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-top ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.nav-top ul li a:hover {
+    background-color: #555;
+}
+
+.main {
+    display: flex;
+    min-height: 300px;
+}
+
+.left {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
+
+.right {
+    width: 70%;
+    padding: 10px;
+}
+
+.footer {
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background: #f4f4f4;
+}
